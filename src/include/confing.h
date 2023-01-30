@@ -32,5 +32,5 @@
 #define WaterLevel 47
 
 //paths
-#define IMAGE_PATH "images/terrain.png"
-#define CHUNK_PATH "chunks/chunk%dx%d"
+#define IMAGE_PATH "bin/images/terrain.png"
+#define CHUNK_PATH "bin/files/chunks/chunk%dx%d"

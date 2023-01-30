@@ -250,15 +250,10 @@ void setup_chunks(){
 	for(cx=0;cx<chunkcount;cx++){
 		for(cz=0;cz<chunkcount;cz++){
 			//setup_chunk(cx,cz);
-			if(1){
-				if(!FirstFrame){save_chunk(cx,cz,-chunkOld.x+cx,-chunkOld.y+cz);}
-				//printf("%d %d %d %d\n",cx,cz,chunkUp.x+cx,chunkUp.y+cz);
-				//setup_chunk(cx,cz);
-			}
-			if(1){
-				if(!load_chunk(cx,cz,-chunkUp.x+cx,-chunkUp.y+cz)){
+			if(!FirstFrame){save_chunk(cx,cz,-chunkOld.x+cx,-chunkOld.y+cz);}
+			
+			if(!load_chunk(cx,cz,-chunkUp.x+cx,-chunkUp.y+cz)){
 					setup_chunk(cx,cz);
-				}
 			}
 		}
 	}
