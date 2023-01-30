@@ -3,35 +3,31 @@
 A minecraft clone from scratch written in c using OpenGL glut and libpng.
 
 ## run(only Linux):
-cd to bin
-run ./bin/out
+1.cd to bin
+2.run ./bin/out
 
 ## compile(only Linux)
 make sure you installed opengl and libpng:
-
-/usr/include/GL
-
-/usr/include/png.h
+	-/usr/include/GL
+	-/usr/include/png.h
 
 
-cd to bin
+1.cd to bin
+2.remove bin/out
+3.use gcc src/main.c -o bin/out -DPNG_IMAGE_TES -g -lpng -lm -I /usr/include -lGL -lglut -lGLU
+4.run ./bin/out
 
-remove bin/out
-
-use gcc src/main.c -o bin/out -DPNG_IMAGE_TES -g -lpng -lm -I /usr/include -lGL -lglut -lGLU
-
-run ./bin/out
 
 ## TODO:
-fix block selection
+-fix block selection
 
-(colision)
+-(colision)
 
-(better lighting)
+-(better lighting)
 
-(inventor & GUI)
+-(inventor & GUI)
 
-(Day Night)
+-(Day Night)
 
-(more bioms & blocks)
+-(more bioms & blocks)
 
