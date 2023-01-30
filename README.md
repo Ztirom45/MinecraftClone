@@ -2,11 +2,11 @@
 
 A minecraft clone from scratch written in c using OpenGL glut and libpng.
 
-##run(only Linux):
+## run(only Linux):
 cd to bin
 run ./bin/out
 
-##compile(only Linux)
+## compile(only Linux)
 make sure you installed opengl and libpng:
 
 /usr/include/GL
