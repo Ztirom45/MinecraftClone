@@ -1,8 +1,8 @@
-#MinecraftClone
+# MinecraftClone
 
 A minecraft clone from scratch written in c using OpenGL glut and libpng.
 
-TODO:
+## TODO:
 fix block selection
 (colision)
 (better lighting)
