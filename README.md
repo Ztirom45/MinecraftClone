@@ -3,8 +3,8 @@
 A minecraft clone from scratch written in c using OpenGL glut and libpng.
 
 ## run(only Linux):
-1. cd to bin
-2. run ./bin/out
+
+run ./bin/out
 
 ## compile(only Linux)
 make sure you installed opengl and libpng:
@@ -12,10 +12,9 @@ make sure you installed opengl and libpng:
 	- /usr/include/png.h
 
 
-1. cd to bin
-2. remove bin/out
-3. use gcc src/main.c -o bin/out -DPNG_IMAGE_TES -g -lpng -lm -I /usr/include -lGL -lglut -lGLU
-4. run ./bin/out
+1. remove bin/out
+2. use gcc src/main.c -o bin/out -DPNG_IMAGE_TES -g -lpng -lm -I /usr/include -lGL -lglut -lGLU
+3. run ./bin/out
 
 
 ## TODO:
