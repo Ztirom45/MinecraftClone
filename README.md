@@ -20,6 +20,12 @@ make sure you installed opengl and libpng:
 ## TODO:
 - fix block selection
 
+- fix chunk update(remove changes)
+
+- fix chunk update(remove changes)
+
+- fix lighting height upadate while block placment
+
 - (colision)
 
 - (better lighting)
