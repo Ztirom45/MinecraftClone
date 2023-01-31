@@ -2,6 +2,11 @@
 
 A minecraft clone from scratch written in c using OpenGL glut and libpng.
 
+![screenshot1](https://github.com/Ztirom45/MinecraftClone/blob/main/screenshots/shot1.png)
+![screenshot2](https://github.com/Ztirom45/MinecraftClone/blob/main/screenshots/shot2.png)
+![screenshot3](https://github.com/Ztirom45/MinecraftClone/blob/main/screenshots/shot3.png)
+![screenshot4](https://github.com/Ztirom45/MinecraftClone/blob/main/screenshots/shot4.png)
+![screenshot5](https://github.com/Ztirom45/MinecraftClone/blob/main/screenshots/shot5.png)
 ## run(only Linux):
 
 run ./bin/out
