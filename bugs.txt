@@ -1,0 +1,4 @@
+1.block placement
+2.chunk update(remove changes)
+3.block placment chunk border update
+4.lighting height+block placment
